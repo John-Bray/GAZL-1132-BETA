@@ -145,7 +145,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2207.722656250
-P _gear/0/_stat_def 0.222931027
+P _gear/0/_stat_def 0.222930938
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -179,7 +179,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2207.722656250
-P _gear/1/_stat_def 0.222931027
+P _gear/1/_stat_def 0.222930938
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -213,7 +213,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 2207.722656250
-P _gear/2/_stat_def 0.633354843
+P _gear/2/_stat_def 0.633354783
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -247,7 +247,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 0.0
 P _gear/3/_scon 2207.722656250
-P _gear/3/_stat_def 0.633354843
+P _gear/3/_stat_def 0.633354783
 P _gear/3/_steerdeg_hispeed 0.0
 P _gear/3/_steerdeg_lospeed 0.0
 P _gear/3/_strut_comp 0.0
@@ -445,6 +445,17 @@ P _obja/1/_v10_att_y_acf_prt_ref 0.0
 P _obja/1/_v10_att_z_acf_prt_ref 0.0
 P _obja/1/_v10_is_internal 24070656
 P _obja/1/_v10_steers_with_gear 0
+P _obja/10/_obj_flags 0
+P _obja/10/_v10_att_file_stl FlightPathMarker.obj
+P _obja/10/_v10_att_part -1
+P _obja/10/_v10_att_phi_ref 0.0
+P _obja/10/_v10_att_psi_ref 0.0
+P _obja/10/_v10_att_the_ref 0.0
+P _obja/10/_v10_att_x_acf_prt_ref 0.0
+P _obja/10/_v10_att_y_acf_prt_ref 0.0
+P _obja/10/_v10_att_z_acf_prt_ref 0.0
+P _obja/10/_v10_is_internal 268496912
+P _obja/10/_v10_steers_with_gear 0
 P _obja/2/_obj_flags 0
 P _obja/2/_v10_att_file_stl GAZL_cabin.obj
 P _obja/2/_v10_att_part -1
@@ -512,7 +523,7 @@ P _obja/7/_v10_att_z_acf_prt_ref 0.0
 P _obja/7/_v10_is_internal 106085672
 P _obja/7/_v10_steers_with_gear 0
 P _obja/8/_obj_flags 26
-P _obja/8/_v10_att_file_stl GAZL_glass.obj
+P _obja/8/_v10_att_file_stl GAZL_perspex_OUT.obj
 P _obja/8/_v10_att_part -1
 P _obja/8/_v10_att_phi_ref 0.0
 P _obja/8/_v10_att_psi_ref 0.0
@@ -522,8 +533,8 @@ P _obja/8/_v10_att_y_acf_prt_ref 0.0
 P _obja/8/_v10_att_z_acf_prt_ref 0.0
 P _obja/8/_v10_is_internal 3
 P _obja/8/_v10_steers_with_gear 0
-P _obja/9/_obj_flags 0
-P _obja/9/_v10_att_file_stl FlightPathMarker.obj
+P _obja/9/_obj_flags 1
+P _obja/9/_v10_att_file_stl GAZL_perspex_INN.obj
 P _obja/9/_v10_att_part -1
 P _obja/9/_v10_att_phi_ref 0.0
 P _obja/9/_v10_att_psi_ref 0.0
@@ -533,7 +544,7 @@ P _obja/9/_v10_att_y_acf_prt_ref 0.0
 P _obja/9/_v10_att_z_acf_prt_ref 0.0
 P _obja/9/_v10_is_internal 268496912
 P _obja/9/_v10_steers_with_gear 0
-P _obja/count 10
+P _obja/count 11
 P _panel_inst_3d 0
 P _part/0/_bot_s1 0.0
 P _part/0/_bot_s2 0.015625000
@@ -15214,7 +15225,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x -3.513812542
-P _part/87/_part_y -2.646980524
+P _part/87/_part_y -2.646980762
 P _part/87/_part_z 2.624671936
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -16683,7 +16694,7 @@ P _part/88/_part_specs_invis 1
 P _part/88/_part_tex 0
 P _part/88/_part_the 0.0
 P _part/88/_part_x 3.513812542
-P _part/88/_part_y -2.646980524
+P _part/88/_part_y -2.646980762
 P _part/88/_part_z 2.624671936
 P _part/88/_patt_con 0
 P _part/88/_patt_prt 0
@@ -24442,7 +24453,7 @@ P acf/_nom_bat_volt 24.0
 P acf/_nom_fuelP 30.0
 P acf/_nom_gen_volt 24.500000000
 P acf/_nom_oilP 115.0
-P acf/_notes 2019 May 15 version
+P acf/_notes 2019 May 17 version
 P acf/_num_batteries 1
 P acf/_num_braking_wheels 0.0
 P acf/_num_buses 2
