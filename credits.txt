@@ -1,0 +1,5 @@
+This aircraft builds on work by many people before, including:
+
+Gary Brown, Geed, Lester Bofo, and StuartC
+
+Many thanks to FGUK for their work on the GPL FlightGear version
