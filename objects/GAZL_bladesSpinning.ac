@@ -1,0 +1,298 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "ac3dmat5" rgb 1 1 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 2 2 2  shi 128  trans 0
+OBJECT world
+kids 2
+OBJECT group
+name "GAZL_bladesMainSpin"
+loc -0.0185875 1.66744 -0.0152212
+data 40
+layer_group=objects
+layer_group_offset=0
+folded
+kids 1
+OBJECT group
+name "Default LOD"
+kids 1
+OBJECT group
+name "ANIMATION"
+data 10
+animated=1
+kids 4
+OBJECT poly
+name "rotate"
+loc 0.00375891 0 -0.0136378
+data 157
+anim_type=1
+anim_keyframe_count=2
+value0=0.000000
+angle0=0.000000
+value1=1.000000
+angle1=1.000000
+dataref=sim/flightmodel2/engines/prop_rotation_angle_deg[0]
+crease 45.000000
+numvert 2
+-0.000576019 -0.999993 0.0287723
+-0.000737906 1.00001 0.0290056
+numsurf 1
+SURF 0x32
+mat 1
+refs 2
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "blade"
+loc -3.49969 0 0.926091
+texture "GAZL_transparent.png"
+crease 45.000000
+numvert 6
+-0.665769 0 -5.07396
+-1.21428 0 -4.68969
+-1.72625 0 -4.02039
+-2.02187 0 -3.21677
+-2.15568 0 -2.44419
+3.50213 0 -0.911308
+numsurf 1
+SURF 0x30
+mat 0
+refs 6
+5 0.996427 0.981766
+4 0.755383 0.506957
+3 0.682936 0.546177
+2 0.610148 0.601568
+1 0.553892 0.672494
+0 0.525774 0.736966
+kids 0
+OBJECT poly
+name "blade"
+loc 0.965474 0 -3.47361
+texture "GAZL_transparent.png"
+crease 45.000000
+numvert 6
+-0.961849 0 3.48859
+3.19458 0 -0.64478
+3.79674 0 -0.142609
+4.34488 0 0.515218
+4.66853 0 1.29325
+4.72707 0 1.96041
+numsurf 1
+SURF 0x30
+mat 0
+refs 6
+0 0.996427 0.981766
+1 0.755383 0.506957
+2 0.682936 0.546177
+3 0.610148 0.601568
+4 0.553892 0.672494
+5 0.525774 0.736966
+kids 0
+OBJECT poly
+name "blade"
+loc 2.54338 0 2.59338
+texture "GAZL_transparent.png"
+crease 45.000000
+numvert 6
+-4.0613 0 3.11356
+-3.45425 0 3.39644
+-2.61863 0 3.50517
+-1.77487 0 3.35938
+-1.03889 0 3.08897
+-2.54028 0 -2.57728
+numsurf 1
+SURF 0x30
+mat 0
+refs 6
+5 0.996427 0.981766
+4 0.755383 0.506957
+3 0.682936 0.546177
+2 0.610148 0.601568
+1 0.553892 0.672494
+0 0.525774 0.736966
+kids 0
+OBJECT group
+name "GAZL_bladesTailSpin"
+loc -0.123772 -0.0129091 3.04613
+folded
+kids 1
+OBJECT group
+name "Default LOD"
+kids 1
+OBJECT group
+name "ANIMATION"
+data 10
+animated=1
+folded
+kids 3
+OBJECT poly
+name "show"
+data 118
+anim_type=5
+anim_keyframe_count=2
+value0=-10000.000000
+value1=15.000000
+dataref=sim/flightmodel/engine/POINT_tacrad[1]
+crease 45.000000
+numvert 2
+0 0 0
+0 0 0
+numsurf 1
+SURF 0x32
+mat 1
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "rotate"
+loc 0.152451 0.752774 3.46653
+data 158
+anim_type=1
+anim_keyframe_count=2
+value0=0.000000
+angle0=0.000000
+value1=1.000000
+angle1=-1.000000
+dataref=sim/flightmodel2/engines/prop_rotation_angle_deg[0]
+crease 45.000000
+numvert 2
+1 0 0
+-1 0 0
+numsurf 1
+SURF 0x32
+mat 1
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "POLY_OS=0 HARD= BLEND=yes"
+data 111
+poly_os=0.000000
+blend=-1.000000
+hard_surf=
+deck=0
+mod_lit=0
+wall=0
+draw_disable=0
+manip_type=0
+use_materials=1
+texture "GAZL_transparent.png"
+crease 45.000000
+numvert 17
+-0.001343 1.09922 3.61006
+-0.001343 1.12776 3.46656
+-0.001343 1.09922 3.32308
+-0.001343 1.01792 3.20146
+-0.001343 0.896303 3.12015
+-0.001343 0.752832 3.09162
+-0.001343 0.609317 3.12015
+-0.001343 0.487686 3.20146
+-0.001343 0.406391 3.32308
+-0.001343 0.377849 3.46656
+-0.001343 0.406391 3.61006
+-0.001343 0.487686 3.73169
+-0.001343 0.609317 3.81296
+-0.001343 0.752789 3.84153
+-0.001343 1.01792 3.73169
+-0.001343 0.752789 3.46656
+-0.001343 0.896303 3.81296
+numsurf 16
+SURF 0x30
+mat 2
+refs 3
+0 0.845604 0.480829
+15 0.749887 0.249868
+14 0.926711 0.426727
+SURF 0x30
+mat 2
+refs 3
+1 0.749887 0.5
+15 0.749887 0.249868
+0 0.845604 0.480829
+SURF 0x30
+mat 2
+refs 3
+1 0.749887 0.5
+2 0.654167 0.480829
+15 0.749887 0.249868
+SURF 0x30
+mat 2
+refs 3
+2 0.654167 0.480829
+3 0.573023 0.426727
+15 0.749887 0.249868
+SURF 0x30
+mat 2
+refs 3
+3 0.573023 0.426727
+4 0.518939 0.34561
+15 0.749887 0.249868
+SURF 0x30
+mat 2
+refs 3
+4 0.518939 0.34561
+5 0.5 0.249868
+15 0.749887 0.249868
+SURF 0x30
+mat 2
+refs 3
+5 0.5 0.249868
+6 0.518939 0.154164
+15 0.749887 0.249868
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+6 0.518939 0.154164
+7 0.573023 0.0730098
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+7 0.573023 0.0730098
+8 0.654167 0.0189428
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+8 0.654167 0.0189428
+9 0.749887 0
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+9 0.749887 0
+10 0.845604 0.0189428
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+10 0.845604 0.0189428
+11 0.926711 0.0730098
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+11 0.926711 0.0730098
+12 0.980835 0.154164
+SURF 0x30
+mat 2
+refs 3
+15 0.749887 0.249868
+12 0.980835 0.154164
+13 1 0.249868
+SURF 0x30
+mat 2
+refs 3
+16 0.980835 0.34561
+15 0.749887 0.249868
+13 1 0.249868
+SURF 0x30
+mat 2
+refs 3
+14 0.926711 0.426727
+15 0.749887 0.249868
+16 0.980835 0.34561
+kids 0
