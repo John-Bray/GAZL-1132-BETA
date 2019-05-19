@@ -3,7 +3,55 @@ MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  sh
 MATERIAL "ac3dmat5" rgb 1 1 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
 MATERIAL "" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 2 2 2  shi 128  trans 0
 OBJECT world
-kids 2
+kids 1
+OBJECT group
+name "Animation"
+data 10
+animated=1
+kids 4
+OBJECT poly
+name "hide"
+loc 0 4.0252 0.163352
+data 115
+anim_type=5
+anim_keyframe_count=2
+value0=-10.000000
+value1=15.000000
+dataref=sim/flightmodel/engine/POINT_tacrad[0]
+texture "/Users/johnbray/Dropbox/EC20_1132/objects/EC20-rotors-main.png"
+crease 45.000000
+numvert 2
+2.98023e-08 0.0283041 -0.022164
+2.98023e-08 0.0283041 -0.022164
+numsurf 1
+SURF 0x32
+mat 1
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "show"
+loc 0 4.0252 0.163352
+data 132
+anim_type=4
+anim_keyframe_count=2
+value0=15.000000
+value1=500.000000
+dataref=sim/flightmodel/engine/POINT_tacrad[0]
+poly_os=0.000000
+texture "/Users/johnbray/Dropbox/EC20_1132/objects/EC20-rotors-main.png"
+crease 45.000000
+numvert 2
+2.98023e-08 0.0283041 -0.022164
+2.98023e-08 0.0283041 -0.022164
+numsurf 1
+SURF 0x32
+mat 1
+refs 2
+1 0 0
+0 0 0
+kids 0
 OBJECT group
 name "GAZL_bladesMainSpin"
 loc -0.0185875 1.66744 -0.0152212
