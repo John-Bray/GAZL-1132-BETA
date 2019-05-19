@@ -6,10 +6,10 @@ defineProperty("iPad1_mode",createGlobalPropertyf("jb/sasl/iPads/1/mode"))  -- 0
 set(iPad1_mode, -1)
 
 defineProperty("iPadVisibility",createGlobalPropertyi("jb/sasl/iPads/visible"))  -- 0=off, 1= ON (INT)
-set(iPadVisibility,  1) 
+set(iPadVisibility,  0) 
 
 defineProperty("HudHidden",createGlobalPropertyi("jb/sasl/Hud/hidden"))  -- 0=visible, 1= hidden (killed) (INT)
-set(HudHidden,  0) 
+set(HudHidden,  1) 
 
 createProp("jb/sasl/currentWaypointID", "int", 0);
 defineProperty("currentWaypointID",   globalPropertyi("jb/sasl/currentWaypointID"))
