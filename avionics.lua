@@ -64,6 +64,7 @@ defineProperty(          "TR_rpm", globalPropertyf("sim/cockpit2/engine/indicato
 defineProperty(             "panelLight1", globalPropertyf("sim/cockpit2/electrical/panel_brightness_ratio[1]"))
 defineProperty(              "panelLight2", globalPropertyf("sim/cockpit2/electrical/panel_brightness_ratio[2]"))
 defineProperty( "cockpit_lights_level", globalPropertyf("sim/cockpit/electrical/cockpit_lights"))
+set(cockpit_lights_level, 0.5) -- otherwise you can't even find them to adjust in the dark!
 defineProperty(                 "brightness",globalPropertyf("sim/cockpit2/electrical/instrument_brightness_ratio[0]")) -- the brightness level for dimming text 
 
 defineProperty(            "batteryON", globalPropertyf("sim/cockpit2/electrical/battery_on"))

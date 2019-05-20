@@ -145,7 +145,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2207.722656250
-P _gear/0/_stat_def 0.222930998
+P _gear/0/_stat_def 0.222931013
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -179,7 +179,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2207.722656250
-P _gear/1/_stat_def 0.222930998
+P _gear/1/_stat_def 0.222931013
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -330,7 +330,7 @@ P _gear/7/_gear_type 0
 P _gear/8/_gear_type 0
 P _gear/9/_gear_type 0
 P _gear/count 10
-P _lite/0/_dist 150.0
+P _lite/0/_dist 200.0
 P _lite/0/_hide 0
 P _lite/0/_index 0
 P _lite/0/_lite_type landing
@@ -341,13 +341,13 @@ P _lite/0/_rgb/count 3
 P _lite/0/_v10_att_part -1
 P _lite/0/_v10_att_phi_ref 0.0
 P _lite/0/_v10_att_psi_ref 0.0
-P _lite/0/_v10_att_the_ref 0.0
+P _lite/0/_v10_att_the_ref -10.0
 P _lite/0/_v10_att_x_acf_prt_ref 0.0
 P _lite/0/_v10_att_y_acf_prt_ref -1.706036687
 P _lite/0/_v10_att_z_acf_prt_ref -10.301837921
 P _lite/0/_v10_is_internal 0
 P _lite/0/_v10_steers_with_gear 0
-P _lite/0/_width 45.0
+P _lite/0/_width 30.0
 P _lite/1/_dist 0.0
 P _lite/1/_hide 0
 P _lite/1/_index 0
@@ -24454,7 +24454,7 @@ P acf/_nom_bat_volt 24.0
 P acf/_nom_fuelP 30.0
 P acf/_nom_gen_volt 24.500000000
 P acf/_nom_oilP 115.0
-P acf/_notes 2019 May 19 version v101RC
+P acf/_notes 2019 May 20s version v101RC
 P acf/_num_batteries 1
 P acf/_num_braking_wheels 0.0
 P acf/_num_buses 2
@@ -24805,7 +24805,7 @@ P acf/_spot3_3d_xyz/0 0.0
 P acf/_spot3_3d_xyz/1 0.0
 P acf/_spot3_3d_xyz/2 0.0
 P acf/_spot3_3d_xyz/count 3
-P acf/_spot_angle/0 30.0
+P acf/_spot_angle/0 24.0
 P acf/_spot_angle/1 0.0
 P acf/_spot_angle/2 0.0
 P acf/_spot_angle/count 3
@@ -24817,11 +24817,11 @@ P acf/_spot_psi/0 0.0
 P acf/_spot_psi/1 0.0
 P acf/_spot_psi/2 0.0
 P acf/_spot_psi/count 3
-P acf/_spot_size/0 8.0
+P acf/_spot_size/0 15.0
 P acf/_spot_size/1 0.010000000
 P acf/_spot_size/2 0.010000000
 P acf/_spot_size/count 3
-P acf/_spot_the/0 -52.0
+P acf/_spot_the/0 -35.0
 P acf/_spot_the/1 0.0
 P acf/_spot_the/2 0.0
 P acf/_spot_the/count 3
@@ -24975,7 +24975,7 @@ P acf/_warn_fuelP 0.0
 P acf/_warn_gear 0
 P acf/_warn_hirot_EQ 0
 P acf/_warn_lorot_EQ 0
-P acf/_warn_stall 1
+P acf/_warn_stall 0
 P acf/_warn_transonic_EQ 0
 P acf/_warn_verbal_500_agl 0
 P acf/_wate_xyz/0 0.0
