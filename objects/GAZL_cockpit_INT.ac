@@ -11270,14 +11270,16 @@ kids 3
 OBJECT poly
 name "rotationPitch"
 loc 1.80043e-05 -6.6191e-05 -0.060359
-data 152
+data 188
 anim_type=1
-anim_keyframe_count=2
-value0=-60.000000
-angle0=60.000000
-value1=60.000000
-angle1=-60.000000
+anim_keyframe_count=3
+value0=-180.000000
+angle0=180.000000
+value1=0.000000
+angle1=0.000000
 dataref=sim/cockpit/gyros/the_ind_elec_pilot_deg
+value2=180.000000
+angle2=-180.000000
 crease 45.000000
 numvert 2
 0.032077 0.000235647 0.0358493
@@ -11291,19 +11293,21 @@ refs 2
 kids 0
 OBJECT poly
 name "rotationRoll"
-loc 0.0212911 0.000122637 -0.0274508
-data 146
+loc 0.0212911 0.000122637 -0.060935
+data 178
 anim_type=1
-anim_keyframe_count=2
-value0=-90.000000
-angle0=-90.000000
-value1=90.000000
-angle1=90.000000
-dataref=sim/cockpit/gyros/phi_ele_ind_deg	
+anim_keyframe_count=3
+value0=-180.000000
+angle0=180.000000
+value1=0.000000
+angle1=0.000000
+dataref=sim/cockpit/gyros/phi_ind_deg3
+value2=180.000000
+angle2=-180.000000
 crease 45.000000
 numvert 2
--0.0214146 -0.000209779 0.0362341
--0.0211677 -3.54946e-05 -0.0251992
+-0.0214146 -0.000209779 0.0697184
+-0.0211677 -3.54946e-05 -0.0484858
 numsurf 1
 SURF 0x32
 mat 1
@@ -13702,14 +13706,16 @@ kids 3
 OBJECT poly
 name "rotationPitch"
 loc -0.0001259 -0.000111639 -0.101822
-data 152
+data 188
 anim_type=1
-anim_keyframe_count=2
-value0=-60.000000
-angle0=60.000000
-value1=60.000000
-angle1=-60.000000
+anim_keyframe_count=3
+value0=-180.000000
+angle0=180.000000
+value1=0.000000
+angle1=0.000000
 dataref=sim/cockpit/gyros/the_ind_elec_pilot_deg
+value2=180.000000
+angle2=-180.000000
 crease 45.000000
 numvert 2
 0.0659737 0.000397503 0.0604758
@@ -13723,19 +13729,21 @@ refs 2
 kids 0
 OBJECT poly
 name "rotationRoll"
-loc 0.0359169 0.000206888 -0.0463078
-data 146
+loc 0.0359169 0.000206888 -0.053194
+data 178
 anim_type=1
-anim_keyframe_count=2
-value0=-90.000000
-angle0=-90.000000
-value1=90.000000
-angle1=90.000000
-dataref=sim/cockpit/gyros/phi_ele_ind_deg	
+anim_keyframe_count=3
+value0=-180.000000
+angle0=180.000000
+value1=0.000000
+angle1=0.000000
+dataref=sim/cockpit/gyros/phi_ind_deg3
+value2=180.000000
+angle2=-180.000000
 crease 45.000000
 numvert 2
--0.0361251 -0.000353932 0.0611253
--0.0357087 -5.98431e-05 -0.0425096
+-0.0361251 -0.000353932 0.0850427
+-0.0357087 -5.98431e-05 -0.0591428
 numsurf 1
 SURF 0x32
 mat 1
@@ -192206,7 +192214,7 @@ refs 2
 kids 0
 OBJECT poly
 name "show"
-loc -0.00843817 -0.00660276 -2.56147
+loc -0.00843816 -0.00660276 -2.56147
 data 113
 anim_type=4
 anim_keyframe_count=2
